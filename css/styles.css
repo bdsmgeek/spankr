@@ -1,1 +1,10 @@
-#gamegif {cursor: pointer}
+#gamegif {
+  max-width: 544px;
+  max-height: 580px;
+  cursor: pointer;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
