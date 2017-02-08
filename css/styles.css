@@ -2,9 +2,21 @@
 
 body {
   background: gray;
+  color: white;
+  font-family: 'VT323', monospace;
+}
+
+h1 {
+  text-align: center;
+  padding: 5px;
 }
 
 #main {
+}
+
+#main h2 {
+  text-align: center;
+  padding: 1px;
 }
 
 #gamegif {
@@ -19,7 +31,6 @@ body {
   top: 0px;
   padding: 10px;
   color: white;
-  font-family: 'VT323', monospace;
   font-size: 24px;
 }
 
