@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=VT323');
 
+body {
+  background: gray;
+}
+
 #main {
-  max-width: 544px;
-  max-height: 580px;
 }
 
 #gamegif {
@@ -12,14 +14,19 @@
 
 #spankcounter {
   position: absolute;
+  z-index: -1;
   right: 0px;
   top: 0px;
-  z-index: -1;
+  padding: 10px;
   color: white;
   font-family: 'VT323', monospace;
-  font-smooth: never;
-  -webkit-font-smoothing : none;
-  font
+  font-size: 24px;
+}
+
+.container {
+  position: relative;
+  max-width: 544px;
+  max-height: 580px;
 }
 
 .center {
