@@ -14,7 +14,7 @@ body {
 
 #spankcounter {
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   right: 0px;
   top: 0px;
   padding: 10px;
