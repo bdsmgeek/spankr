@@ -7,5 +7,4 @@ $(document).ready(function() {
     $("#gamegif").attr('src', 'img/spank-animated.gif');
     $('#spankcounter').html(function(i, val) { return val*1+1 });
   });
-  
-});	
+});
