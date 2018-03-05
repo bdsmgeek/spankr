@@ -21,16 +21,25 @@
 
 <body>
   <header><h1>Spanker Life</h1></header>
-  <nav></nav>
+  <nav class="center">
+    <ul>
+      <li><button type="button" id="next" onclick="next">Next Character</button></li>
+      <li><button type="button" id="mute" onclick="mute">Mute</button></li>
+    </ul>
+  </nav>
   <section id="main">
-    <div class="container center">
-      <img id="gamegif" class="noSelect" src="img/spank-thumb.gif"/>
-      <label id="spankcounter">00</label>
-      <h2>Click to image spank.</h2>
+    <div class="container outer center">
+      <div class="container inner ">
+        <img id="gamegif" class="noSelect" src="img/02.thumb.gif"/>
+        <label id="spankcounter">0</label>
+        <h2>Click to image spank.</h2>
+      </div>
     </div>
   </section>
-  <aside></aside>
-  <footer>
+  <aside>
+    <div id="fileNames"></div>
+  </aside>
+  <footer class="center">
     <h3>Art copyright of <a href="http://moth-cellardoor.tumblr.com/">moth-cellardoor</a><br>
     Coded by <a href="https://bdsmgeek.tumblr.com">bdsmgeek</a></h3>
   </footer>
